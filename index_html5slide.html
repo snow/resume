@@ -1,48 +1,40 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=1024" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Snow Hellsing的简历</title>
-    
-    <meta name="description" content="" />
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
-
-    <!--
-        
-        Impress.js doesn't depend on any external stylesheet. Script adds all styles it needs for
-        presentation to work.
-        
-        This style below contains styles only for demo presentation. Browse it to see how impress.js
-        classes are used to style presentation steps, or how to apply fallback styles, but I don't want
-        you to use them directly in your presentation.
-        
-        Be creative, build your own. We don't really want all impress.js presentations to look the same,
-        do we?
-        
-        When creating your own presentation get rid of this file. Start from scratch, it's fun!
-        
-    -->
-    <link href="c/impress-snowmod.css" rel="stylesheet" />
-    
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <meta charset='utf-8'>
+    <script src='http://html5slides.googlecode.com/svn/trunk/slides.js'></script>
 </head>
   
 <style>
+article a {text-decoration:none}
+article p,
+article li {line-height:1.5em}
+article p {font-size:28px}
 
+.quite {font-size:14px; color:#999}
+p .date {display:block; padding:0 5px; height:30px; line-height:30px; 
+         font-size:20px; background:#eee}
 </style>
 
-<body>
-    <section id="impress" class="impress-not-supported">
-        
-        <article class="fallback-message">
-            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser. Upcoming version 10 of Internet Explorer <i>should</i> also handle it.</p>
-        </article>
+<body style='display: none'>
+    <section class='slides layout-widescreen template-io2011'>
            
-        <article id="intro" class="step">
+        <article>
             <h1>Snow Hellsing</h1>
             <p>我的能力，经历，弱点<br />
                2009 ~ 2012<br />
@@ -51,28 +43,28 @@
             <p class="quite">Tips: 空格、退格和左右方向键</p>
         </article>
       
-        <article id="coding_skills" class="step" data-z="-2000">
+        <article>
             <h3>能力: 技术</h3>
             <ul>
-            <li><strong>Python</strong>: 写过若干基于django的应用或者以应用形式提供的扩展(后详)。
+            <li>Python: 写过若干基于django的应用或者以应用形式提供的扩展(后详)。
                 在前公司写过爬虫和数据挖掘脚本。</li>
-            <li><strong>前端</strong>: 工作中积累了大量jQuery和CSS经验。广泛使用过开源js库，
+            <li>前端: 工作中积累了大量jQuery和CSS经验。广泛使用过开源js库，
                 如<a href="https://github.com/desandro/masonry">massonry</a>, 
                 <a href="https://github.com/bartaz/impress.js">impress.js</a>,
                 <a href="http://lokeshdhakar.com/projects/lightbox2/">lightbox</a>,
                 <a href="http://www.sencha.com/products/extjs/examples/">extjs</a>.
                 写过几个纯前端的小应用(后详)，python和PHP的自用代码库里也有前端代码积累。
             </li>
-            <li><strong>PHP</strong>: 工作中写过若干基于Yii的应用。开源了自己的的Yii代码库(后详)。
+            <li>PHP: 工作中写过若干基于Yii的应用。开源了自己的的Yii代码库(后详)。
                 为<a href="http://elgg.org" target="_blank">Elgg</a>
                 贡献过<a href="http://community.elgg.org/pg/plugins/developer/openid_20310">几个插件</a>。
                 织梦和PHPCMS等国内CMS，wordpress，以及没有基于框架的PHP应用也在工作中用过。
             </li>
-            <li><strong>java</strong>, <strong>C++</strong>: 快忘光了，万一遇到不得不用的情况，捡起来也很快</li>
+            <li>java, C++: 快忘光了，万一遇到不得不用的情况，捡起来也很快</li>
             </ul>
         </article>
       
-        <article id="other_than_skills" class="step" data-z="-2000" data-x="1150">
+        <article>
             <h3>能力: 技术以外</h3>
             <ul>
             <li>同时拥有产品和技术方面的知识</li>
@@ -81,7 +73,7 @@
             </ul>
         </article>
         
-        <article id="unstable" class="step" data-z="-2000" data-x="2300">
+        <article>
             <h3>能力和性格: 不确定的东西</h3>
             <ul>
             <li>产品设计能力</li>
@@ -92,7 +84,7 @@
             </ul>
         </article>
       
-        <article id="github" class="step" data-z="-4000">
+        <article>
             <h3>经历: 部分开源项目</h3>
             <ul>
             <li>
@@ -138,7 +130,7 @@
             </ul>
         </article>
       
-        <article id="joyotime" class="step compact" data-z="-4000" data-x="1150">
+        <article>
             <h3>经历: 最近的工作</h3>
             <p><span class="date">2010-10 or 11?</span>
 在<a href="http://in.chengdu.cn" target="_blank">IN成都</a>项目任产品经理。
@@ -155,7 +147,7 @@
             </p>
         </article>
       
-        <article id="xinchao_n_nirvana" class="step compact" data-z="-4000" data-x="2300">
+        <article>
             <h3>经历: 以前的工作</h3>
             <p><span class="date">2010-5 ~ 2010-10 or 11?</span>
 在新潮网写PHP和前端。首先是应业务需求对原有主站做修修补补。
@@ -169,7 +161,7 @@
             </p>
         </article>
       
-        <article id="in_the_wild" class="step compact" data-z="-4000" data-x="3450">
+        <article>
             <h3>经历: 和工作无关，却成为我一部分的那些疯狂</h3>
             <p><span class="date">大四</span>
 在冲动下尝试创业，放弃学业。任主程。在项目接近完成时意识到只是儿戏，放弃。</p>
@@ -181,7 +173,7 @@
 高中和朋友建文学论坛，在高中生里聚集了一个小圈子。毕业后荒废。</p>
         </article>
       
-        <article id="weakness" class="step" data-z="-6000" data-rotate="90">
+        <article>
             <h3>弱点</h3>
             <ul>
             <li>没有视觉设计能力</li>
@@ -189,7 +181,7 @@
             </ul>
         </article>
         
-        <article id="links" class="step" data-z="-8000" data-rotate="180">
+        <article>
             <h3>Other Links</h3>
             <ul>
             <li>
@@ -213,11 +205,11 @@
             </ul>
         </article>
       
-        <article id="end" class="step" data-z="-10000" data-rotate="270">
+        <article>
             <h1>感谢阅读</h1>
         </article>
       
-        <article id="thanks" class="step" data-z="-12000" data-rotate="360">
+        <article>
             <h3>鸣谢</h3>
             <p class="quite">对这份简历的读者来说只是一些名字，
                 而对我来说必须写在这里的一些人。</p>
@@ -225,8 +217,5 @@
         </article>
 
     </section>
-    
-    <script src="s/impress.js"></script>
-    <script>impress();</script>
 </body>
 </html>
