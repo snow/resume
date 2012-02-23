@@ -143,6 +143,8 @@ body { pointer-events: none; }
     opacity: 0.3;
 }
 
+.speaker_note {position:absolute; bottom:10px; font-size:14px; color:#999}
+
 /* STEP SPECIFIC STYLES */
 
 
